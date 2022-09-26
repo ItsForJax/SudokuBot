@@ -28,3 +28,7 @@ def solve():
                         board[x][y] = 0
                 return
     solved = [board[x][y] for x in range(9) for y in range(9)]
+    
+if __name__ == "__main__":
+    solve()
+    print(solved)
